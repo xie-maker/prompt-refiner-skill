@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prompt Refiner"
+  short_description: "Turn rough requests into sharper prompts, with optional -pro review"
+  default_prompt: "Use $prompt-refiner to refine my rough request into an effective prompt, then complete the task. Add -pro for deep diagnosis and test cases."
+policy:
+  allow_implicit_invocation: false

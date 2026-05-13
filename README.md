@@ -2,6 +2,16 @@
 
 Prompt Refiner is a portable prompt-improvement workflow for AI assistants. It turns rough requests into clear, outcome-first executable prompts, then completes the task when execution is expected.
 
+## One-Click Downloads
+
+| Use case | Download |
+| --- | --- |
+| Any AI assistant: ChatGPT, Claude, Gemini, Cursor, etc. | [Download Universal Prompt Pack](https://github.com/xie-maker/prompt-refiner-skill/releases/latest/download/prompt-refiner-universal.zip) |
+| Codex skill install | [Download Codex Skill Folder](https://github.com/xie-maker/prompt-refiner-skill/releases/latest/download/prompt-refiner-codex-skill.zip) |
+| Full source code | [Download Repository ZIP](https://github.com/xie-maker/prompt-refiner-skill/archive/refs/heads/main.zip) |
+
+Most AI products do not allow a GitHub repository to install a prompt directly into the app with one click. The universal pack gives you a one-click download that works anywhere: unzip it, open `PROMPT.md`, and paste it into your assistant's custom instructions, project instructions, rules, or first chat message.
+
 It works as:
 
 - A **copy/paste prompt** for ChatGPT, Claude, Gemini, Cursor, and other assistants
@@ -17,7 +27,7 @@ It works as:
 
 ## Universal Use
 
-If you are not using Codex, open [`PROMPT.md`](./PROMPT.md), copy the prompt, and paste it into your assistant as:
+If you are not using Codex, download the [Universal Prompt Pack](https://github.com/xie-maker/prompt-refiner-skill/releases/latest/download/prompt-refiner-universal.zip), unzip it, open `PROMPT.md`, and paste it into your assistant as:
 
 - ChatGPT: a custom GPT instruction, project instruction, or the first message in a chat
 - Claude: project instructions or the first message in a chat
@@ -41,7 +51,7 @@ Improve this prompt: Help me write a project plan
 
 ## Codex Skill Install
 
-Copy the `prompt-refiner/` folder into your Codex skills directory:
+Download the [Codex Skill Folder](https://github.com/xie-maker/prompt-refiner-skill/releases/latest/download/prompt-refiner-codex-skill.zip), unzip it, and copy the `prompt-refiner/` folder into your Codex skills directory:
 
 ```text
 ~/.codex/skills/prompt-refiner
@@ -113,6 +123,7 @@ Pro Mode provides:
 
 ```text
 PROMPT.md
+QUICKSTART.md
 prompt-refiner/
   SKILL.md
   agents/
